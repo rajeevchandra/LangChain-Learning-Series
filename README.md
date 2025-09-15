@@ -14,9 +14,8 @@ pip install -r requirements.txt
 
 Contents
 
-01. Intro to LangChain → day01_intro
-
-02. Chains Basics → day02_chains_basics
+- **01. Intro to LangChain** → [day01_intro/notebook.ipynb](day01_intro/notebook.ipynb)
+- **02. Chains Basics** → [day02_chains_basics/notebook.ipynb](day02_chains_basics/notebook.ipynb)
 
 03. Prompt Templates → day03_prompt_templates
 
