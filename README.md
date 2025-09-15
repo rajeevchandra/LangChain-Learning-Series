@@ -2,6 +2,19 @@
 
 This repo is a daily series. Each folder is self-contained with a short README, a runnable `main.py`, **and a Jupyter notebook**.
 
+## LangChain Overview
+
+![LangChain Overview](./langchain_overview.png)
+
+**Explanation:**
+- **User** sends a query.
+- **Prompt Templates** standardize how inputs are passed.
+- **Chains** organize calls to LLMs and other modules.
+- **Memory** keeps past context available for multi-turn conversations.
+- **Agents** decide what to do next (call APIs, query a vector DB, or pass back to the LLM).
+- **LLMs** generate responses and send them back to the user.
+
+
 ## How to use
 1. Create a virtual env and install deps:
 ```bash
