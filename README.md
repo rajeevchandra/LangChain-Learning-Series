@@ -4,7 +4,18 @@ This repo is a daily series. Each folder is self-contained with a short README, 
 
 ## LangChain Overview
 
-<pre> ```mermaid flowchart LR User((User)) -->|"query"| Prompt[Prompt Template] Prompt --> Chain[Chain] Chain --> LLM((LLM)) Memory[Memory] -.->|"context"| Chain Agent{{Agent}} -.->|"control"| Chain Agent --> Tools[(Tools/APIs)] Agent --> VectorDB[(Vector DB)] LLM -->|"response"| User ``` </pre>
+```mermaid
+flowchart LR
+  User((User)) -->|"query"| Prompt[Prompt Template]
+  Prompt --> Chain[Chain]
+  Chain --> LLM((LLM))
+  Memory[Memory] -.->|"context"| Chain
+  Agent{{Agent}} -.->|"control"| Chain
+  Agent --> Tools[(Tools/APIs)]
+  Agent --> VectorDB[(Vector DB)]
+  LLM -->|"response"| User
+```
+
 
 
 **Explanation:**
