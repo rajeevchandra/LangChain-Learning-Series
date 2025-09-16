@@ -4,6 +4,11 @@ This repo is a daily series. Each folder is self-contained with a short README, 
 
 ## LangChain Overview
 
+LangChain is a powerful, open-source software development framework designed to help developers build applications with large language models (LLMs). Rather than just using an LLM to generate a single response, LangChain makes it possible to create complex, multi-step applications by "chaining" together different components.
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/973b2c1c-052a-40e1-afcd-8b4a7ce88ac0" />
+
+
 ```mermaid
 flowchart LR
   User((User)) -->|"query"| Prompt[Prompt Template]
