@@ -4,6 +4,19 @@
 
 ---
 
+## What is LangChain?
+LangChain is a Python framework that streamlines building applications powered by large language models (LLMs). It provides ready-to-use building blocks—such as prompt templates, model wrappers, memory, tools, and chains—that simplify connecting models to external data sources and orchestrating multi-step workflows. By composing these components you can create conversational agents, document question-answering systems, data pipelines, and other intelligent applications without having to manage low-level API details yourself.
+
+At a high level, LangChain focuses on three core ideas:
+
+1. **Integration:** unify access to many LLM providers (OpenAI, Anthropic, local models, etc.) through a consistent interface.
+2. **Orchestration:** make it easy to structure complex prompt flows, tool calls, and retrieval steps.
+3. **Customization:** let you extend or swap components so solutions can be tuned to your domain, data, or infrastructure.
+
+This introduction day focuses on validating your environment so you can confidently build richer chains in later modules.
+
+---
+
 ## Prerequisites
 - Python 3.9+
 - Virtual environment with requirements installed:
